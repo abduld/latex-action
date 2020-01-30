@@ -1,4 +1,4 @@
-FROM xucheng/texlive-full:latest
+FROM cwpearson/latex:full
 
 COPY \
   LICENSE \
