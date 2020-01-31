@@ -1,4 +1,4 @@
-FROM cwpearson/latex:full
+FROM dakkak/latex:latest
 
 COPY \
   LICENSE \
