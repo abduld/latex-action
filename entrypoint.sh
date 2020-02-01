@@ -48,4 +48,4 @@ if [ ! -f "$root_file" ]; then
 fi
 
 # shellcheck disable=SC2086
-"$compiler" $args "$root_file"
+"$compiler" $args "$root_file" < /dev/null
