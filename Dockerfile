@@ -1,4 +1,4 @@
-FROM dakkak/latex:latest
+FROM dakkak/latex:20.04
 
 COPY \
   LICENSE \
