@@ -30,8 +30,8 @@ fi
 
 if [ -n "$extra_system_packages" ]; then
   for pkg in $extra_system_packages; do
-    echo "Install $pkg by apk"
-    apk --no-cache add "$pkg"
+    echo "Install $pkg by apt-get"
+    apt-get install "$pkg"
   done
 fi
 
