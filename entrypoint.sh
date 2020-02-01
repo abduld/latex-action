@@ -1,7 +1,5 @@
 #!/bin/sh
 
-set -e
-
 warn() {
   echo "::warning :: $1"
 }
